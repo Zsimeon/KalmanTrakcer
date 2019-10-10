@@ -30,7 +30,7 @@ public:
 
 	void getMatchedPair(vector<KalmanTracker>& trackers, vector<TrackingBox>& tempVec, vector<Rect_<float>>& predictedBoxes);
   
-  void getResult(vector<cv::Point>& matchedPairs, vector<KalmanTracker>& trackers, vector<TrackingBox>& tempVec);
+  	void getResult(vector<cv::Point>& matchedPairs, vector<KalmanTracker>& trackers, vector<TrackingBox>& tempVec);
 	
 	void Tracking(vector<TrackingBox>& tempVec);
 	
@@ -59,7 +59,7 @@ private:
 	set<int> allItems;
 	set<int> matchedItems;
 	vector<cv::Point> matchedPairs;
-  vector<TrackingBox> frameTrackingResult;
+  	vector<TrackingBox> frameTrackingResult;
 	vector<KalmanTracker> trackersResult;
 	unsigned int trkNum = 0;
 	unsigned int detNum = 0;
