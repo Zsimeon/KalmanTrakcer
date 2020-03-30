@@ -7,3 +7,6 @@
 4 使用visual studio 2019 和 opencv 4.1.0
 
 5 使用匈牙利匹配将预测框和实际检测到的框相匹配
+
+项目中涉及的卡尔曼滤波和匈牙利匹配方法来自该作者的github
+https://github.com/mcximing/sort-cpp
